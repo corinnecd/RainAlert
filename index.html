@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainAlert- La météo au plus proche de chez vous !</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Rechercher une ville française..." id="cityInput">
+                <button class="search-btn" id="searchBtn">🔍</button>
+                <div class="autocomplete-list" id="autocompleteList"></div>
+            </div>
+        </div>
+        
+        <div class="weather-content" id="weatherContent">
+            <div class="initial-state">
+                <h2>🌤️ RainAlert</h2>
+                <p>La météo de votre ville en temps réél !</p>
+            </div>
+        </div>
+    </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
